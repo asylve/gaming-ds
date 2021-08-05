@@ -1,5 +1,5 @@
 # Project Summary
-
+ 
 The goal of this project is to predict which game users that are likely to spend money after finishing a game's tutorial. If such users can be identified based on their early behavior (before they spend anything), they can be offered different pricing to try and improve overall profits.
 The provided data is split into three tables:
 -	ka_actions – Describing actions the user has taken while playing the game
