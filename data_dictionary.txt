@@ -1,0 +1,77 @@
+ka_actions
+
+
+uid_s - unique user identifier
+
+logins - number of logins since install
+
+game_stats_tutorial_complete - whether user completed tutorial
+
+game_stats_tutorial_complete_time - time (microseconds) to complete game tutorial
+
+game_stats_xp - experience points accumulated by first time interval from install
+
+game_stats_xp1 - experience points accumulated by second time interval from install
+
+game_stats_xp2 - experience points accumulated by third time interval from install
+
+game_stats_xp3 - experience points accumulated by fourth time interval from install
+
+redeemer_actions - number of 'redeemer' actions since install (Note: 'redeemer' is a type of in-game action)
+
+scribe_actions - number of 'scribe' actions since install (Note: 'scribe' is a type of in-game action)
+
+
+
+
+ka_devices (stored in a table called 'devices')
+
+
+uid_s - unique user identifier
+
+platform_s - installation platform
+
+device_mapped_s - common name for device used
+
+device_manufacturer_s - device manufacturer
+
+device_mem_i - main memory size for device
+device_gmem_i - graphical memory size for device  
+
+device_mem_grouping_i - grouping of the device based on memory size
+
+device_gmem_grouping_i - grouping of the device based on graphical memory size
+
+device_numcpu_i - number of cores in CPU
+
+device_height_i - height of the device
+
+device_gpu_s - chipset of the device
+
+device_os_s - operating system of the device
+
+device_model_s - model number of the device
+
+
+
+
+ka_users
+
+
+uid_s - unique user identifier
+
+lang_s - language used on user's device
+
+geo_s - country level location of the user
+
+region_s - regional level location of the user
+
+tz_i - time zone of the user 
+
+local_time_join_hour - hour of the day when the player first installed 
+
+local_time_join_dow - day of the week when the player first installed
+
+total_spend - total in-game spend by the user 
+
+
